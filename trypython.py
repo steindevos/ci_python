@@ -81,6 +81,7 @@
 # for i in numberList:
 #     total += i 
 # print(total)
+# total = sum(numberList)
 
 # listOfNumbers = []
 # for i in range(0, 100): 
@@ -182,10 +183,53 @@ def hypotenusa(a, b):
 #                 count += 1
 #         if count == 0:
 #             return i
-# print(largestNumber(numbers))
 
-def removeDuplicates(list): 
-    for i in list: 
-        for x in list: 
-            if x == i: 
-                del list[i]
+# def largest(number): 
+#     largest_number = 0
+#     for i in number: 
+#         if i > largest_number:
+#             largest_number = i
+#     return largest_number
+# print(largest([3, 54, 45, 34, 5, 345]))
+# # print(largestNumber(numbers))
+
+# practiceList = [1, 1, 1, 4, 7, 6, 3, 3, 3, 45, 45]
+# print(list(set(practiceList)))
+
+# student1 = {"name": "Stein", "age": 30, "country": "Netherlands"}
+# student2 = {"name": "Eric", "age": 22, "country": "Netherlands"}
+# student3 = {"name": "Peter", "age": 35, "country": "Netherlands"}
+
+# students_list = []
+# students_list.append(student1)
+# students_list.append(student2)
+# students_list.append(student3)
+
+# print(students_list)
+
+# students_dict = {}
+
+# for student in students_list:
+#     students_dict[student["name"]] = student
+
+# print(students_dict)
+
+
+ladybird1 = {}
+
+ladybird1["name"] = "Henkie"
+ladybird1["colour"] = "Yellow"
+
+ladybird2 = {}
+
+ladybird2["name"] = "Martha"
+ladybird2["colour"] = "red"
+
+ladybirds = {}
+ladybirds[ladybird1["name"]] = ladybird1
+ladybirds[ladybird2["name"]] = ladybird2
+
+# print(ladybirds)
+
+# class HumanClass: 
+        
